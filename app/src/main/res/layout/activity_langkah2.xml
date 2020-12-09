@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvwelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Ayam Geprek"
+            android:textColor="#000"
+            android:textSize="28sp"
+            android:paddingStart="5dp"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ayamgeprek"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:paddingStart="15dp"
+            android:id="@+id/tv_menit"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/imageView"
+            android:gravity="center_vertical|end"
+            android:text="45 Menit   "
+            android:drawableEnd="@drawable/ic_jam"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:paddingStart="15dp"
+            android:id="@+id/tv_bahan"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/tv_menit"
+            android:gravity="center_vertical"
+            android:text="Bahan-bahan   "
+            android:background="#D3D3D3"
+            android:textColor="#000"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/bahanayamgeprek">
+
+        </TextView>
+
+        <TextView
+            android:paddingStart="15dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tv_langkah"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/tv_menit"
+            android:gravity="center_vertical"
+            android:text="Langkah-langkah   "
+            android:background="#D3D3D3"
+            android:textColor="#000"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/langkahayamgeprek">
+
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

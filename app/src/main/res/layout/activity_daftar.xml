@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/textresep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="30dp"
+        android:text="REGISTRASI"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#808080"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textresep"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:padding="20dp"
+        android:hint="NAMA">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etname"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:hint="USERNAME">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etusername"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:hint="PASSWORD"
+        android:inputType="textPassword">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etpass1"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpass"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:hint="KETIK ULANG PASSWORD"
+        android:inputType="textPassword">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btndaftar"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpass1"
+        android:text="daftar"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#0099FF">
+
+    </Button>
+
+</RelativeLayout>
